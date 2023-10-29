@@ -1,4 +1,7 @@
+////https://www.beecrowd.com.br/judge/pt/problems/view/1047
+
 #include <stdio.h>
+
 int main()
 {
     int h1, m1, h2, m2, hf, mf;

@@ -6,15 +6,11 @@ int main()
 
     char texto[51];
     char resul[51];
-    int tamanho = 0;
-    while(gets(texto) != NULL){
-    int ordem = 1;
 
-    while(texto[tamanho])
-    {
-        texto[tamanho++];
-    }
-    for (int i = 0; i <= tamanho; i++)
+    while(gets(texto) != NULL){
+    int ordem = 1; // 1 = o ultimo caractere era minusculo, 0 = o ultimo caractere era maiusculo
+
+    for (unsigned int i = 0; i <= strlen(texto); i++)
     {
 
         if(texto[i] == ' ')

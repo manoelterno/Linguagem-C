@@ -15,13 +15,7 @@ MAIOR NOTA: 9
 */
 #include <stdio.h>
 #include <string.h>
-void limpar(char *nome)
-{
-    for (unsigned i = 0; i < strlen(nome); i++)
-    {
-        nome[i] = '\0';
-    }
-}
+
 int main()
 {
     FILE *arquivo = fopen("notas.txt", "r");
